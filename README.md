@@ -4,7 +4,7 @@ Un petit jeu d'enquête en console, écrit en C#.
 
 Une nuit d'orage, Lord Blackwood est retrouvé mort dans la bibliothèque de son manoir. Le joueur explore les pièces, interroge les suspects et les témoins, et doit découvrir qui est le coupable.
 
-> Projet perso en cours : je le code pour apprendre le C# et la programmation orientée objet.
+> Projet perso en cours : je le code pour apprendre le C#, en reprenant la programmation orientée objet que je connais déjà en Java.
 
 ## L'histoire
 
@@ -28,11 +28,10 @@ Une nuit d'orage, Lord Blackwood est retrouvé mort dans la bibliothèque de son
 - [ ] Interroger les personnages présents
 - [ ] Accuser un suspect et savoir si on a trouvé le coupable
 
-## Ce que le projet m'apprend
+## Ce que j'y mets en pratique
 
-- Les **classes** et les **propriétés** en C#
-- L'**héritage** : `Suspect` et `Temoin` héritent de la classe abstraite `Personnage`
-- Le **polymorphisme** : chaque type de personnage redéfinit `Parler()` à sa façon
+- La **syntaxe du C#** : propriétés (`{ get; private set; }`), `override`, chaînes interpolées
+- L'**héritage** et le **polymorphisme** : `Suspect` et `Temoin` héritent de la classe abstraite `Personnage` et redéfinissent chacun `Parler()`
 - Les collections : `List` pour les personnages d'une pièce, `Dictionary` pour ses sorties
 
 ## Lancer le jeu
